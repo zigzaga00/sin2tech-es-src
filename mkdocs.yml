@@ -116,3 +116,4 @@ theme:
     code: Fira Code
 markdown_extensions:
   - admonition
+
