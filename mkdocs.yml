@@ -1,4 +1,5 @@
 site_name: Sisters In2 Tech
+site_url: https://es.sin2tech.com
 nav:
   - Home: index.html
   - Landing Page: landing/landing.md
