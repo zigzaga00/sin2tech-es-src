@@ -40,7 +40,7 @@ body {
   background: var(--clr-white);
   color: var(--clr-grey-1);
   line-height: 1.5;
-  font-size: 0.875;
+  font-size: 0.875rem;
 }
 a {
   text-decoration: none;
@@ -758,6 +758,7 @@ Code Project Gallery
   color: var(--clr-primary);
   background-color: var(--clr-tertiary);
 }
+
 /* extra css */
 .code-title {
   display: flex;
@@ -798,4 +799,23 @@ Code Project Gallery
   .code-card-white {
     flex: 0 0 calc(33.333% - 2rem);
   }
+}
+
+/* Ensure all code cards are equal height and footer sticks to bottom */
+.code-card,
+.code-card-white {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Let the info/content area expand to fill space */
+.code-project-info {
+  flex-grow: 1;
+}
+
+
+/* Footers should never shrink and stay pinned at bottom */
+.code-card-footer,
+.code-card-example-footer {
+  flex-shrink: 0;
 }
