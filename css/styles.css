@@ -941,6 +941,7 @@ Girl Power Gallery Shimmering Heading
   display: inline-block;
   background: linear-gradient(90deg, #ffb6c1, #ff69b4, #ffd700, #ff69b4);
   background-size: 300%;
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: shimmer 6s infinite linear;
