@@ -340,6 +340,14 @@ Header
   /* animation */
   overflow-x: hidden;
 }
+.header-super-shapes-2 {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.4)),
+    url("../images/super-shapes-2.jpg") center/cover no-repeat fixed;
+  position: relative;
+  /* animation */
+  overflow-x: hidden;
+}
 .banner {
   text-align: center;
   position: absolute;
